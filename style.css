@@ -47,7 +47,6 @@
 .icon-right i {
   margin-left: 10px;
 }
-
         .secondheader{
             background-image: url('hero_iphone_family__fuz5j2v5xx6y_largetall.jpg');
             background-repeat: no-repeat;
@@ -132,7 +131,6 @@
             margin-bottom: 4px;
          }
          .but3{
-
             position: relative;
             font-size: 20px;
             color: white;
@@ -150,7 +148,6 @@
               transition: 0.5s;
         }
         .but4{
-
             position: relative;
             font-size: 20px;
             color: rgb(0, 113, 227);
@@ -787,7 +784,66 @@
         }
 }
 @media (max-width: 768px) {
+    
+    .secondheader,
+    .tirdheader {
+        background-size: cover;
+        background-position: center;
+        width: 100vw;
+        height: 80vw;
+        padding: 20px 10px;
+    }
 
+    .mob1, .mob2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .iPhone, .iPad {
+        font-size: 8vw;
+        padding-top: 20px;
+    }
+
+    .serie, .german {
+        font-size: 4vw;
+        padding: 10px 0;
+        line-height: normal;
+    }
+
+    /* دکمه‌ها کنار هم */
+    .mob1 button,
+    .mob2 button {
+        width: 42vw;
+        height: 12vw;
+        font-size: 4vw;
+        margin: 5px;
+        top: auto;
+        right: auto;
+    }
+
+    /* باکس دکمه‌ها برای چیدمان افقی */
+    .mob1,
+    .mob2 {
+        gap: 10px;
+    }
+
+    /* چیدمان دکمه‌ها کنار هم */
+    .mob1,
+    .mob2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mob1-buttons,
+    .mob2-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+ 
     .custom-header {
     display: flex;
     justify-content: space-between;
