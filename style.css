@@ -1,0 +1,919 @@
+.custom-header {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 1000;
+}
+
+.custom-header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-header a {
+  color: #000;
+  text-decoration: none;
+  padding: 0 10px;
+  font-size: 14px;
+}
+
+.custom-header a:hover {
+  color: #555;
+}
+
+.icon-left {
+  position: absolute;
+  left: 22vw;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #000;
+  cursor: pointer;
+}
+
+.icon-right {
+  position: absolute;
+  right: 20vw;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #000;
+  cursor: pointer;
+}
+
+.icon-right i {
+  margin-left: 10px;
+}
+
+        .secondheader{
+            background-image: url('hero_iphone_family__fuz5j2v5xx6y_largetall.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 98.8vw;
+            height: 30vw;
+            margin-top: 30px;
+            text-align: center;
+        }
+        .iPhone{
+            padding-top: 10px;
+            font-size: 50px;
+            margin-bottom: 0px;
+
+        }
+        .serie{
+            line-height: 0px;
+            font-size: 18px;
+            padding-top: 8px;
+            margin-bottom: 4px;
+        }
+        .but1{
+
+            position: relative;
+            font-size: 20px;
+            color: white;
+            background-color: rgb(0, 113, 227);
+            top: 20px;
+            right: 10px;
+            width: 210px;
+            height: 50px;
+            border-radius: 30px;
+            border: 3px solid  rgb(0, 113, 227);
+            transition: 0.5s;
+        }
+        .but1:hover{
+              background-color: rgb(33, 129, 224);
+              transition: 0.5s;
+        }
+        .but2{
+
+            position: relative;
+            font-size: 20px;
+            color: rgb(0, 113, 227);
+            background-color: white;
+            top: 20px;
+            right: -10px;
+            width: 210px;
+            height: 50px;
+            border-radius: 30px;
+            border: 1px solid  rgb(0, 113, 227);
+            transition: 1s;
+        }
+        .but2:hover{
+              background-color: rgb(0, 113, 227);
+              color: white;
+              transition: 1s;
+        }
+         .tirdheader{
+            background-image: url('hero__mdl3lpkglcia_large_1.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 98.8vw;
+            height: 30vw;
+            text-align: center;
+            background-position: center;
+            background-size: cover;
+            
+         }
+         .iPad{
+            color: white;
+            padding-top: 10px;
+            font-size: 50px;
+            margin-bottom: 0px;
+
+         }
+         .german{
+            color: white;
+            line-height: 0px;
+            font-size: 18px;
+            padding-top: 8px;
+            margin-bottom: 4px;
+         }
+         .but3{
+
+            position: relative;
+            font-size: 20px;
+            color: white;
+            background-color: rgb(0, 113, 227);
+            top: 20px;
+            right: 10px;
+            width: 210px;
+            height: 50px;
+            border-radius: 30px;
+            border: 3px solid  rgb(0, 113, 227);
+            transition: 0.5s;
+        }
+        .but3:hover{
+              background-color: rgb(33, 129, 224);
+              transition: 0.5s;
+        }
+        .but4{
+
+            position: relative;
+            font-size: 20px;
+            color: rgb(0, 113, 227);
+            background-color:black;
+            top: 20px;
+            right: -10px;
+            width: 130px;
+            height: 50px;
+            border-radius: 30px;
+            border: 1px solid  rgb(0, 113, 227);
+            transition: 1s;
+        }
+        .but4:hover{
+              background-color: rgb(0, 113, 227);
+              color: white;
+              transition: 1s;
+        }
+        .footerimg1{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 8px;
+            width: 100%;
+            max-width: 1920px;
+            margin: 10px auto;
+            position: relative;
+            text-align: center;
+        }
+        .imgleft1{
+            background-image: url('promo_macbook_air_avail__e8ksaudoisey_large.jpg');
+            flex: 1 1 45%;
+            min-width: 300px;
+            height: 450px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .imgright1{
+             background-image: url('promo_ipad_air__bfbxzvw65c02_large.jpg');
+            flex: 1 1 45%;
+            min-width: 300px;
+            height: 450px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .footerimg2{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 8px;
+            width: 100%;
+            max-width: 1920px;
+            margin: 10px auto;
+            position: relative;
+            text-align: center;
+        }
+        .imgleft2{
+            background-image: url('promo_apple_watch_series_10_avail_lte__c70y29goir42_large.jpg');
+            flex: 1 1 45%;
+            min-width: 300px;
+            height: 450px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .imgright2{
+             background-image: url('promo_airpods_pro_2_avail__vkitqi3okwie_large.jpg');
+            flex: 1 1 45%;
+            min-width: 300px;
+            height: 450px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+
+        }
+        .footerimg3{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 8px;
+            width: 100%;
+            max-width: 1920px;
+            margin: 10px auto;
+            position: relative;
+            text-align: center;
+        }
+        .imgleft3{
+            background-image: url('promo_airpods_4_avail__bl22kvpg6ez6_large.jpg');
+            flex: 1 1 45%;
+            min-width: 300px;
+            height: 450px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .imgright3{
+            background-image: url('promo_iphone_tradein__bugw15ka691e_large.jpg');
+            flex: 1 1 45%;
+            min-width: 300px;
+            height: 450px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .mackbook{
+            margin-top: 40px;
+            line-height: 10px;
+        }
+  .slider-container {
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    padding: 0 10vw; /* فضای چپ و راست برای دیدن عکس‌های کناری */
+    gap: 2vw;
+  }
+
+  .slider img {
+    width: 80vw;
+    height: 100vh;
+    object-fit: cover;
+    flex-shrink: 0;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    opacity: 0.3;
+    transform: scale(0.85);
+    border-radius: 10px;
+  }
+
+  .slider img.active {
+    opacity: 1;
+    transform: scale(1);
+    z-index: 2;
+  }
+
+  .bullets {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+  }
+
+  .bullets .bullet {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #888;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .bullets .bullet.active {
+    background-color: #000;
+  }
+        .skyblue , .fast{
+            font-size: 18px;
+            line-height: 5px;
+        }
+        .skyblue{
+            padding-top: 13px;
+        }
+        .fast{
+                    margin-bottom: 8px;
+        }
+         .but5{
+            position: relative;
+            font-size: 15px;
+            color: white;
+            background-color: rgb(0, 113, 227);
+            top: 20px;
+            right: 10px;
+            width: 160px;
+            height: 40px;
+            border-radius: 30px;
+            border: 3px solid  rgb(0, 113, 227);
+            transition: 0.5s;
+        }
+        .but5:hover{
+              background-color: rgb(33, 129, 224);
+              transition: 0.5s;
+        }
+        .but6{
+
+            position: relative;
+            font-size: 15px;
+            color: rgb(0, 113, 227);
+            background-color: white;
+            top: 20px;
+            right: -10px;
+            width: 90px;
+            height: 40px;
+            border-radius: 30px;
+            border: 1px solid  rgb(0, 113, 227);
+            transition: 1s;
+        }
+        .but6:hover{
+              background-color: rgb(0, 113, 227);
+              color: white;
+              transition: 1s;
+        }
+        .iPadair , .chip{
+            line-height: 10px;
+        }
+        .iPadair{
+            font-size: 35px;
+            margin-top: 40px;
+        }
+        .chip{
+            font-size: 18px;
+            margin-bottom: -3px;
+            padding-top: 9px;
+        }
+        .but7{
+            position: relative;
+            font-size: 15px;
+            color: white;
+            background-color: rgb(0, 113, 227);
+            top: 20px;
+            right: 10px;
+            width: 160px;
+            height: 40px;
+            border-radius: 30px;
+            border: 3px solid  rgb(0, 113, 227);
+            transition: 0.5s;
+        }
+        .but7:hover{
+              background-color: rgb(33, 129, 224);
+              transition: 0.5s;
+        }
+         .but8{
+
+            position: relative;
+            font-size: 15px;
+            color: rgb(0, 113, 227);
+            background-color: white;
+            top: 20px;
+            right: -10px;
+            width: 90px;
+            height: 40px;
+            border-radius: 30px;
+            border: 1px solid  rgb(0, 113, 227);
+            transition: 1s;
+        }
+        .but8:hover{
+              background-color: rgb(0, 113, 227);
+              color: white;
+              transition: 1s;
+        }
+       .watch{
+
+        font-size: 35px;
+        margin-top: 30px;
+       }
+       .thin{
+        font-size: 18px;
+        padding-top: 1px;
+        margin-bottom: -5px;
+       }
+       .but9{
+            position: relative;
+            font-size: 15px;
+            color: white;
+            background-color: rgb(0, 113, 227);
+            top: 20px;
+            right: 10px;
+            width: 160px;
+            height: 40px;
+            border-radius: 30px;
+            border: 3px solid  rgb(0, 113, 227);
+            transition: 0.5s;
+        }
+        .but9:hover{
+              background-color: rgb(33, 129, 224);
+              transition: 0.5s;
+        }
+        .but10{
+
+            position: relative;
+            font-size: 15px;
+            color: rgb(0, 113, 227);
+            background-color: white;
+            top: 20px;
+            right: -10px;
+            width: 90px;
+            height: 40px;
+            border-radius: 30px;
+            border: 1px solid  rgb(0, 113, 227);
+            transition: 1s;
+        }
+        .but10:hover{
+              background-color: rgb(0, 113, 227);
+              color: white;
+              transition: 1s;
+        }
+        .but11{
+            position: relative;
+            font-size: 15px;
+            color: white;
+            background-color: rgb(0, 113, 227);
+            top: 20px;
+            right: 10px;
+            width: 160px;
+            height: 40px;
+            border-radius: 30px;
+            border: 3px solid  rgb(0, 113, 227);
+            transition: 0.5s;
+        }
+        .but11:hover{
+              background-color: rgb(33, 129, 224);
+              transition: 0.5s;
+        }
+        .but12{
+
+            position: relative;
+            font-size: 15px;
+            color: rgb(0, 113, 227);
+            background-color: black;
+            top: 20px;
+            right: -10px;
+            width: 90px;
+            height: 40px;
+            border-radius: 30px;
+            border: 1px solid  rgb(0, 113, 227);
+            transition: 1s;
+        }
+        .but12:hover{
+              background-color: rgb(0, 113, 227);
+              color: white;
+              transition: 1s;
+        }
+        .airpode, .aid{
+            color: white;
+
+        }
+        .airpode{
+            margin-top: 300px;
+            font-size: 35px;
+            line-height: 4px;
+        }
+        .aid{
+            font-size: 18px;
+            margin-bottom: -5px;
+            padding-top: 8px;
+        }
+        .airpode4{
+            margin-top: 240px;
+            font-size: 35px;
+            color: white;
+            line-height: 1px;
+            margin-bottom: -6px;
+        }
+        .noise{
+            font-size: 18px;
+            color: white;
+            padding-top: 23px;
+            margin-bottom: -4px;
+        }
+         .but13{
+            position: relative;
+            font-size: 15px;
+            color: white;
+            background-color: rgb(0, 113, 227);
+            top: 20px;
+            right: 10px;
+            width: 160px;
+            height: 40px;
+            border-radius: 30px;
+            border: 3px solid  rgb(0, 113, 227);
+            transition: 0.5s;
+        }
+        .but13:hover{
+              background-color: rgb(33, 129, 224);
+              transition: 0.5s;
+        }
+         .but14{
+            position: relative;
+            font-size: 15px;
+            color: rgb(0, 113, 227);
+            background-color: black;
+            top: 20px;
+            right: -10px;
+            width: 90px;
+            height: 40px;
+            border-radius: 30px;
+            border: 1px solid  rgb(0, 113, 227);
+            transition: 1s;
+        }
+        .but14:hover{
+              background-color: rgb(0, 113, 227);
+              color: white;
+              transition: 1s;
+        }
+        .trade{
+            font-size: 35px;
+            line-height: 5px;
+            margin-top: 20px;
+        }
+        .money1 , .money2{
+            font-size: 18px;
+
+        }
+        .money1{
+            margin-bottom: -1px;
+            padding-top: 5px;
+        }
+        .money2{
+            margin-bottom: -7px;
+        }
+         .but15{
+            position: relative;
+            font-size: 15px;
+            color: white;
+            background-color: rgb(0, 113, 227);
+            top: 20px;
+            right: 10px;
+            width: 200px;
+            height: 40px;
+            border-radius: 30px;
+            border: 3px solid  rgb(0, 113, 227);
+            transition: 0.5s;
+        }
+        .but15:hover{
+              background-color: rgb(33, 129, 224);
+              transition: 0.5s;
+        }
+        
+@media (min-width: 769px){
+    .hamburger{
+        display: none;
+    }
+            .container111111111{
+            font-size: 15px;
+            width: 60%;
+            margin: auto;
+            color: gray;
+        }
+        .text11111, .text222222{
+            display: inline-block;
+            padding: 10px;
+        }
+        .hr{
+            margin-top: 30px;
+            width: 60%;
+            margin-left: 19.1vw;
+        }
+        .containe2222222{
+             font-size: 15px;
+            width: 60%;
+            margin: auto;
+            display: flex;
+        }
+        .containe2222222 .big3{
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+            color: gray;
+            padding: 5px 0px;
+        }
+        .containe2222222 .big2{
+              margin: 0px;
+            padding: 0px;
+        }
+        #w{
+            margin-bottom: 10px;
+        }
+        .big4{
+            margin-top: 25px;
+        }
+        .wwe{
+            list-style-type: none;
+            padding: 0px;
+            margin: 0px;
+        }
+        .we{
+            color: gray;
+        }
+        .container33333{
+            height: 200px;
+             font-size: 15px;
+            margin: auto;
+            margin: 0px;
+            margin-left: 80px;
+        }
+        .aca{
+            margin-top: 18px;
+            margin-bottom: 13px;
+        }
+        .aa{
+            list-style-type: none;
+            padding: 0px;
+            margin: 0px;
+        }
+        .cc{
+            color: gray;
+            padding: 5px 0px;
+        }
+        .aa2{
+            list-style-type: none;
+            padding: 0px;
+            margin: 0px;
+        }
+        .aca2{
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+        .cc2{
+            color: gray;
+            padding: 5px 0px;
+        }
+        .container444444{
+             height: 200px;
+             font-size: 15px;
+            margin: auto;
+            margin: 0px;
+            margin-left: 80px;
+        }
+        .container444444 ul{
+            list-style-type: none;
+            padding: 0px;
+             margin: 0px;
+        }
+        .container444444 li{
+            color: gray;
+            padding: 5px 0px;
+        }
+        .container55555555{
+             height: 200px;
+             font-size: 15px;
+            margin: auto;
+            margin: 0px;
+            margin-left: 80px;
+        }
+        .qq{
+            list-style-type: none;
+            padding: 0px;
+            margin: 0px;
+        }
+        .q{
+            color: gray;
+            padding: 5px 0px;
+        }
+        .qqq{
+            margin-bottom: 10px;
+         
+        }
+        .eee{
+            margin-bottom: 10px;
+        }
+        .ee{
+             list-style-type: none;
+            padding: 0px;
+            margin: 0px;
+        }
+        .e{
+            color: gray;
+            padding: 5px 0px;
+        }
+        .rrr{
+            margin-bottom: 10px;
+        }
+        .rr{
+            list-style-type: none;
+            padding: 0px;
+            margin: 0px;
+        }
+        .r{
+            color: gray;
+            padding: 5px 0px;
+        }
+        .container6666666{
+             height: 200px;
+             font-size: 15px;
+            margin: auto;
+            margin: 0px;
+            margin-left: 90px;
+        }
+        .ttt{
+             margin-bottom: 10px;
+        }
+        .tt{
+            list-style-type: none;
+            padding: 0px;
+            margin: 0px;
+        }
+        .t{
+            color: gray;
+            padding: 5px 0px;
+        }
+        .yyy{
+            margin-bottom: 10px;
+        }
+        .yy{
+            list-style-type: none;
+            padding: 0px;
+            margin: 0px;
+        }
+        .y{
+             color: gray;
+            padding: 5px 0px;
+        }
+        .oy{
+            font-size: 15px;
+            color: gray;
+            margin-top: 100px;
+            margin-left: 20%;
+        }
+        .hhr{
+            margin-top: 20px;
+            width: 60%;
+            margin-left: 19.1vw;
+        }
+        .rqe{
+            font-size: 15px;
+            color: gray;
+            margin-top: 20px;
+            margin-left: 20%;
+        }
+        .wsx{
+             list-style-type: none;
+            padding: 0px;
+            margin: 0px;
+            margin-left: 366px;
+            margin-top: -6px;
+        }
+        .tyu{
+            display: inline-block;
+            padding: 0px 10px;
+            color: gray;
+            font-size: 15px;
+        }
+}
+@media (max-width: 768px) {
+
+    .custom-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 10px;
+    padding: 10px 16px;
+    background: #f9f9f9;
+    position: relative;
+  }
+
+  .custom-header nav {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: white;
+    padding: 12px 16px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    z-index: 99;
+  }
+
+  .custom-header nav.open {
+    display: flex;
+  }
+
+  .custom-header nav a {
+    padding: 10px 0;
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    border-bottom: 1px solid #eee;
+  }
+
+  .icon-left {
+    display: block;
+    left: 1vw;
+  }
+
+  .icon-right {
+    right: 1.5vw;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .hamburger {
+    display: block;
+    font-size: 22px;
+    cursor: pointer;
+  }
+
+
+  .slider img {
+    max-height: 60vh; /* یا هر ارتفاعی که مدنظرت هست */
+  }
+
+  
+  footer .containe2222222 {
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px;
+    gap: 8px;
+  }
+
+  footer .containe2222222 > div {
+    border-bottom: 1px solid #ddd;
+    padding: 0;
+  }
+
+  footer .containe2222222 p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-size: 15px;
+    color: #111;
+    padding: 14px 0;
+    margin: 0;
+    cursor: pointer;
+    direction: ltr;
+  }
+
+  footer .containe2222222 p::after {
+    content: "▼";
+    font-size: 12px;
+    transition: transform 0.3s ease;
+    margin-left: 8px;
+  }
+
+  footer .containe2222222 p.open::after {
+    transform: rotate(180deg);
+  }
+
+  footer .containe2222222 ul {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding-left: 12px;
+    padding-bottom: 12px;
+  }
+
+  footer .containe2222222 ul.open {
+    display: block;
+  }
+
+  footer .containe2222222 ul li {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 8px;
+    direction: ltr;
+  }
+
+  /* چیدمان یک‌دست‌تر برای همه div های داخل فوتر */
+  footer .containe2222222 > div {
+    padding-top: 8px;
+  }
+
+  /* جلوگیری از اسکرول افقی */
+  * {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  html, body {
+    overflow-x: hidden;
+  }
+}
